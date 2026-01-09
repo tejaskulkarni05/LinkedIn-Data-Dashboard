@@ -34,12 +34,14 @@ st.sidebar.markdown("---")
 page_info = {
     "📊 Dashboard": "Overview analytics and metrics",
     "🤖 AI Insights": "AI-powered trend analysis per category",
+    "⚙️ Settings": "Configure API keys and settings",
 }
 
 st.sidebar.markdown("""
 ### Available Pages:
 - **📊 Dashboard** - Overview analytics and metrics
 - **🤖 AI Insights** - AI-powered trend analysis per category
+- **⚙️ Settings** - Configure API keys and settings
 
 Use the page selector above to navigate.
 """)

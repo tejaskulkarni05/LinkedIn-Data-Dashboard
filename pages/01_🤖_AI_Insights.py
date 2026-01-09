@@ -7,6 +7,7 @@ import streamlit as st
 import pandas as pd
 from utils.cache_manager import CacheManager
 from utils.ai_generator import InsightsGenerator
+from utils.config import get_gemini_api_key
 from components.insights_display import (
     render_insights_card,
     render_comparison_view,
@@ -145,12 +146,15 @@ else:
                     placeholder = st.empty()
                     with placeholder.container():
                         render_loading_state()
-
-                    generator = InsightsGenerator()
-                    insights = generator.generate_insights(
-                        top_posts=top_posts,
-                        category=category,
-                    )
+                        api_key = get_gemini_api_key()
+                        if not api_key:
+                            st.error("❌ Gemini API key not found. Please set it in Settings or add it to your .env file.")
+                            st.info("💡 Go to the Settings page to configure your API key.")
+                        generator = InsightsGenerator(api_key=api_key)
+                        insights = generator.generate_insights(
+                            top_posts=top_posts,
+                            category=category,
+                        )
 
                     placeholder.empty()
 
@@ -219,7 +223,14 @@ else:
                         with placeholder.container():
                             render_loading_state()
 
-                        generator = InsightsGenerator()
+                        # Get API key from settings or .env
+                        api_key = get_gemini_api_key()
+                        if not api_key:
+                            st.error("❌ Gemini API key not found. Please set it in Settings or add it to your .env file.")
+                            st.info("💡 Go to the Settings page to configure your API key.")
+                            continue
+                        
+                        generator = InsightsGenerator(api_key=api_key)
                         insights = generator.generate_insights(
                             top_posts=top_posts,
                             category=category,

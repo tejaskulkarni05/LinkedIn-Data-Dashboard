@@ -18,7 +18,7 @@ class InsightsGenerator:
         api_key = api_key or os.getenv("GOOGLE_API_KEY")
         if not api_key:
             raise ValueError(
-                "GOOGLE_API_KEY not found. Set it in environment variables or .env file."
+                "GOOGLE_API_KEY not found. Please set it in Settings page or add it to your .env file."
             )
 
         self.client = genai.Client(api_key=api_key)
