@@ -1,0 +1,66 @@
+{
+  "category": "Responsible AI",
+  "authors": [
+    "Abhishek Gupta",
+    "Arnab Chakraborty",
+    "Dan Lohrmann",
+    "Daryl Simpson",
+    "Dr Paul Dongha",
+    "Eric Vanderburg",
+    "Heather Domin",
+    "Jane Fankland MBE",
+    "Jean Gan",
+    "Kuba Szarmach",
+    "Merve Hickok",
+    "Michael Coates",
+    "Natasha Crampton",
+    "Navin Chaddha",
+    "Sanjay Katkar",
+    "Sray Agarwal",
+    "Steve Mills"
+  ],
+  "filters": {},
+  "generated_at": "2026-01-09T17:00:04.765983",
+  "insights": {
+    "category": "Responsible AI",
+    "post_count": 5,
+    "summary": "## What's Trending\n*   **Technical Innovation & Optimization:** Deep dives into new AI architectures (e.g., CAG vs. RAG) offering significant performance improvements.\n*   **Human-Centric Leadership & Culture:** Emphasis on hiring for character, fostering growth mindsets, and building strong, collaborative teams in the tech space.\n*   **AI Governance & Compliance:** Active engagement with evolving regulatory frameworks and codes of practice, particularly in Europe.\n*   **Strategic AI Ecosystem Development:** Announcements of mergers, acquisitions, and partnerships that shape the future of general agents and AI innovation.\n\n## Recurring Angles\n*   **Educational Content with Clear Benefits:** Posts explain complex technical concepts or leadership principles, often contrasting old vs. new, with explicit advantages (e.g., 40x faster, better hires).\n*   **Personal Branding & Thought Leadership:** Authors leverage personal achievements, experiences, or strong opinions to establish credibility and offer actionable insights.\n*   **Structured, Digestible Formats:** Heavy use of bullet points, numbered lists, and clear headings to break down information, making posts easy to read and understand quickly.\n*   **Calls to Action & Community Engagement:** Posts often include direct questions, invitations to training, links to further reading, or prompts to share/follow, encouraging interaction and further engagement.\n\n## Why These Posts Worked\n*   **Provided Tangible Value:** Whether it was a technical solution promising superior performance (CAG), practical advice for hiring, or crucial updates on AI regulation, each post offered clear value to its target audience.\n*   **Addressed Industry Pain Points:** Posts resonated by tackling common challenges like RAG latency, the difficulty of hiring top talent, or navigating complex AI regulations.\n*   **Combined Authority with Accessibility:** Authors demonstrated expertise (Dr. Dongha, Natasha Crampton) or strong leadership philosophy (Jean Gan, Navin Chaddha), while presenting information in an easy-to-digest, engaging manner.\n*   **Encouraged Interaction and Sharing:** Clear calls to action, thought-provoking questions, and requests to repost extended reach and fostered community discussion around relevant topics.\n\n🧠 **Trend Label:** Holistic AI Stewardship",
+    "posts_analyzed": [
+      {
+        "author": "Dr Paul Dongha",
+        "engagement": 7782,
+        "primary_category": "Responsible AI",
+        "post_text": "🏇🤹Don't Do RAG - CAG is 40x faster than RAG, Retrieval-Free with higher precision\n\nCache-Augmented Generation (CAG) emerges as a game-changing approach by eliminating real-time retrieval, leveraging preloaded knowledge, and achieving superior results.\n\nHere is how:\n\n》 The Bottleneck of RAG\n\n✸ Retrieval-Augmented Generation (RAG) has revolutionized AI systems by allowing models to fetch external knowledge dynamically. \n\n✸ However, RAG introduces retrieval latency, document selection errors, and complex architectures, often leading to inefficiencies in time-sensitive tasks.\n\n﹌﹌﹌﹌﹌﹌﹌﹌﹌\n》 The CAG Paradigm: A Simpler, Faster Approach\n\n✸ Key Idea: CAG leverages long-context Large Language Models (LLMs) with preloaded documents and precomputed memory (Key-Value Cache). \n\n✸ This avoids reliance on external data fetches, enabling instant and contextually accurate answers.\n\n---------\n✸ Why Is CAG Retrieval-Free?\n\n☆ Preloaded Knowledge: Instead of dynamically retrieving documents, CAG preloads all required knowledge into the model’s context.\n\n☆ Precomputed Memory (KV Cache): Documents are encoded into a Key-Value cache, which stores inference states and eliminates the need for lookups.\n\n☆ Direct Access to Context: Queries directly access preloaded information, ensuring faster responses and bypassing retrieval mechanisms.\n\n☆ Error-Free Responses: Since all context is preloaded, there’s no risk of retrieval errors or incomplete data.\n\n----------\n✸ How Does CAG Preload Context?\n\n☆ Document Preparation: All relevant documents are curated and preprocessed to fit within the LLM’s context window.\n\n☆ Key-Value Cache Encoding: The documents are transformed into a precomputed KV cache that stores inference states.\n\n☆ Storage and Reuse: This KV cache is stored in memory or disk and reused during inference, eliminating repeated processing.\n\n☆ Query Execution: User queries leverage the preloaded cache, ensuring instant responses without additional retrieval steps.\n\n﹌﹌﹌﹌﹌﹌﹌﹌﹌\n》 Experimental Results: Why CAG Outperforms RAG\n\n✸ Benchmark Datasets:\n\n- HotPotQA - Focused on multi-hop reasoning.\n\n- SQuAD - Emphasizes single-passage comprehension.\n\n✸ Metrics:\n\n- Accuracy: Measured with BERTScore.\n\n- Speed: Response time comparisons.\n\n✸ Findings:\n\n☆ CAG outperformed RAG in accuracy and response time across small, medium, and large datasets.\n\n☆ Large datasets saw up to 40x faster inference times compared to traditional RAG setups.\n\n☆ CAG consistently maintained higher precision and coherence due to holistic context processing.\n\n❓Do you think CAG will replace RAG in real-time applications? \n\nPaper in Comments\n\n﹌﹌﹌﹌﹌﹌﹌﹌﹌\n》 Do you want to master building AI agents?\n\n✸ In my 𝐇𝐚𝐧𝐝𝐬-𝐎𝐧 𝐀𝐈 𝐀𝐠𝐞𝐧𝐭𝐬 𝐓𝐫𝐚𝐢𝐧𝐢𝐧𝐠, I teach you step-by-step how to create:\n☆ Multi-agents using Langgraph/Langchain, CrewAI & OpenAI Swarm.\n☆ AI workflows that process tabular, image, and text data.\n☆ AI applications for real-world.\n\n👉 𝐄𝐧𝐫𝐨𝐥𝐥 𝐍𝐎𝐖:",
+        "post_url": "https://www.linkedin.com/posts/maryammiradi_dont-do-rag-cag-is-40x-faster-than-activity-7281655697086287872-c35Q?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGDkTzoBVL16FhO56uVh29h8_CILzUDIc2I"
+      },
+      {
+        "author": "Jean Gan",
+        "engagement": 5416,
+        "primary_category": "Responsible AI",
+        "post_text": "Hiring for experience is lazy.\nAny leader can scan a résumé.\nGreat leaders hire what can’t be taught.\n\nI’ve seen it as a leader myself:\nSkills can be trained.\nProcesses can be learned.\n\nBut attitude? \nDrive? \nPassion?\nThat can’t be faked.\n\nThe uncomfortable truth:\nIf you only hire résumés...\nyou’re already missing your best people.\n\nHere’s what to hire for instead 👇\n\n1. Curiosity over credentials\nExperience explains the past.\nCuriosity shapes the future.\n\n2. Resilience over résumés\nEvery role has storms.\nHire the ones who rise stronger.\n\n3. Ownership over titles\nNot “That’s not my job.”\nBut “I’ll take care of it.”\n\n4. Passion over polish\nSkills fade without fire.\nPassion fuels the hard days.\n\n5. Attitude over aptitude\nA good attitude lifts a team.\nA bad one poisons it.\n\n6. Growth mindset over “I know it all”\nThe best hires aren’t done climbing.\nThey’re hungry to keep going.\n\n7. Integrity over image\nA shiny résumé might impress.\nIntegrity builds trust that lasts.\n\nBecause in the end:\nThe right person will learn the job.\nThe wrong person will destroy the culture.\n\nHire for character.\nTrain for skill.\nProtect the culture.\n\nResumés don’t build legendary teams.\nPeople do.\n\n♻ Repost to help more leaders rethink hiring.\n➕ Follow Mike Leber for daily insights on leadership, growth & impact.\n\nImage credit: Rob Dance",
+        "post_url": "https://www.linkedin.com/posts/michaelleber_hiring-for-experience-is-lazy-any-leader-activity-7412125630919614464-3D_Y?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGBZ7NIBj9acyiMrl0u85GCcybOg3rsFtkA"
+      },
+      {
+        "author": "Jean Gan",
+        "engagement": 2863,
+        "primary_category": "Responsible AI",
+        "post_text": "Manus is entering the next chapter: we’re joining forces with Meta to take general agents to the next level.\n\nFull story on our blog:",
+        "post_url": "https://www.linkedin.com/posts/manus-im_manus-joins-meta-for-next-era-of-innovation-activity-7411531803485962240-9BS-?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGBZ7NIBj9acyiMrl0u85GCcybOg3rsFtkA"
+      },
+      {
+        "author": "Natasha Crampton",
+        "engagement": 1974,
+        "primary_category": "Responsible AI",
+        "post_text": "Today, we are confirming that Microsoft has signed the European Union’s General-Purpose AI Code of Practice. We are choosing this path to further build trust in Microsoft AI models, support the European AI ecosystem, and demonstrate our long-standing compliance with EU law, while recognizing that the AI Act is a complex regulation that would benefit from simplification.\n \nFor European organizations to grow, thrive, and compete globally with AI, European policymakers should leverage the upcoming digital simplification package and Forum for Signatories to refine and improve the AI Act and Code of Practice to set clear, practical, and well-supported paths to compliance.  \n \nWe look forward to working with the AI Office to implement the Code and contribute ideas for its improvement that are grounded in real-world practice and evolving international approaches.",
+        "post_url": "https://www.linkedin.com/posts/nanna-louise-linde_today-we-are-confirming-that-microsoft-has-activity-7356576464361734144-2Mla?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGKh7WMB0lVFeHitMLsQWj8ouXW1xKCXo-I"
+      },
+      {
+        "author": "Navin Chaddha",
+        "engagement": 1814,
+        "primary_category": "Responsible AI",
+        "post_text": "I’m honored to make the Forbes Midas List of Top Tech Investors for the 17th time. But what truly matters isn't the recognition—it's the privilege of doing what I do daily: helping founders from their inception to iconic journeys.\n\nAt Mayfield, “people first” isn’t just a motto – it’s our fundamental belief. Success in venture capital is never a solo achievement. My journey has been possible because of:\n-Our founders, who chose Mayfield as their partners\n\n- My Mayfield family, who challenge and partner with me daily\n\n- My family, which provides the foundation for everything\n\nOver three decades of building and investing in startups, I've learned that great people evolve, company building is a team sport, and all of us are better than any one of us. My leadership philosophy has been strongly influenced by observing the greatest coaches and championship teams in sports:\n- Establish a winning mindset from day one\n\n- Make bold decisions when others hesitate\n\n- Recognize every contributor, especially the unsung heroes\n\n- Create space for both fierce competition and genuine joy\n\nThe best founders I've worked with are always learning and changing. They see potential in others that they can't yet see in themselves and aren't afraid to embrace the unconventional.\n\nGreat teams win together. They celebrate together. And most importantly, they grow together.\n\nHere’s looking at you, John Zimmer, Logan Green, Manish Chandra, Armon Dadgar, Mitchell Hashimoto, Lyndon Rive, Anand Deshpande, Guru Pangal, Kumar Ramachandran, Manu Gulati, Murli Thirumale, Gou Rao, Ankur Singla, Rob Bearden, Dheeraj Pandey, Tarun Raisoni, Bill Gross, Faraj Aalaei, Rajiv K., Seshu Madhavapeddy, and Rehan Jalil.\n\nThank you to Iain Martin and Forbes for the recognition, our founders who are building the future of AI, and my team at Mayfield, who make coming to work every day fun.",
+        "post_url": "https://www.linkedin.com/posts/navinchaddha_founders-startups-venturecapital-activity-7333160085180846080-Nnv9?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGIEABIBUBBKTdImXKLLJP2oS968aVMHY40"
+      }
+    ]
+  }
+}

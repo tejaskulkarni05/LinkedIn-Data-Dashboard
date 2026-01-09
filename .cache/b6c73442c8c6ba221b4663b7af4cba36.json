@@ -1,0 +1,66 @@
+{
+  "category": "Human based security",
+  "authors": [
+    "Abhishek Gupta",
+    "Arnab Chakraborty",
+    "Dan Lohrmann",
+    "Daryl Simpson",
+    "Dr Paul Dongha",
+    "Eric Vanderburg",
+    "Heather Domin",
+    "Jane Fankland MBE",
+    "Jean Gan",
+    "Kuba Szarmach",
+    "Merve Hickok",
+    "Michael Coates",
+    "Natasha Crampton",
+    "Navin Chaddha",
+    "Sanjay Katkar",
+    "Sray Agarwal",
+    "Steve Mills"
+  ],
+  "filters": {},
+  "generated_at": "2026-01-09T16:59:41.659897",
+  "insights": {
+    "category": "Human based security",
+    "post_count": 5,
+    "summary": "## What's Trending\n*   **Leadership and Influence Recognition:** Posts highlighting influential individuals, such as the Forbes' Most Powerful Women list, generate significant engagement, suggesting a strong interest in human leadership, achievement, and its broader impact.\n*   **Curated Content Value:** Sharing prestigious, well-researched external content from reputable sources (e.g., industry lists) proves highly effective, often outperforming original lengthy text posts in terms of engagement.\n*   **Author's Personal Brand as Engagement Driver:** A notable number of top-performing posts lacked explicit text, indicating that the author's established reputation, strong network, or compelling accompanying visual content (not provided) were primary drivers of engagement.\n\n## Recurring Angles\n*   **Celebration of Human Achievement:** Highlighting individuals who attain significant milestones or hold influential positions resonates broadly, appealing to themes of success, leadership, and inspiration.\n*   **External Validation & Authority:** Leveraging the credibility of well-known publications (e.g., Forbes) to share content enhances perceived value and encourages broader sharing and discussion.\n*   **Visual/Link-First Engagement (Implied):** The consistent high engagement for posts with \"nan\" text from a prominent author suggests a strategy where powerful visuals, videos, or strong link previews are the primary content, minimizing the need for extensive captions.\n\n## Why These Posts Worked\n*   **High-Impact Content (Post 569):** The Forbes list of powerful women is inherently engaging, tapping into universal themes of success, recognition, and leadership, which often sparks discussion and broad appeal.\n*   **Strong Author Network & Authority (Navin Chaddha):** The consistent high engagement on Navin Chaddha's posts, despite the \"nan\" text, points to a robust personal brand and an established, highly engaged follower base who likely anticipate valuable content (whether visual or linked) from this author.\n*   **Appeal to Broad Professional Interests:** Content centered on leadership, influence, and success generally transcends niche categories, attracting a wider professional audience who then engage with the post, even if its direct link to \"Human based security\" is subtle or conveyed through other media.\n\n🧠 **Trend Label:** Leadership & Influence Spotlight",
+    "posts_analyzed": [
+      {
+        "author": "Navin Chaddha",
+        "engagement": 1210,
+        "primary_category": "Human based security",
+        "post_text": "",
+        "post_url": "https://www.linkedin.com/posts/navinchaddha_activity-7335292863926161410-ytkw?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGIEABIBUBBKTdImXKLLJP2oS968aVMHY40"
+      },
+      {
+        "author": "Jean Gan",
+        "engagement": 987,
+        "primary_category": "Human based security",
+        "post_text": "Introducing the 22nd annual Forbes list of the World's 100 Most Powerful Women: \n\nThe list was determined by four main metrics: money, media, impact and spheres of influence. \n\nThese 100 —including 17 newcomers—command a collective $37 trillion in economic power and influence more than 1 billion people.\n\nIllustration: Oriana Fenwick for Forbes",
+        "post_url": "https://www.linkedin.com/posts/forbes-magazine_powerwomen-activity-7407238254640402435-sltq?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGBZ7NIBj9acyiMrl0u85GCcybOg3rsFtkA"
+      },
+      {
+        "author": "Navin Chaddha",
+        "engagement": 609,
+        "primary_category": "Human based security",
+        "post_text": "",
+        "post_url": "https://www.linkedin.com/posts/navinchaddha_activity-7358844412740710404-ekqS?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGIEABIBUBBKTdImXKLLJP2oS968aVMHY40"
+      },
+      {
+        "author": "Navin Chaddha",
+        "engagement": 582,
+        "primary_category": "Human based security",
+        "post_text": "",
+        "post_url": "https://www.linkedin.com/posts/navinchaddha_activity-7374098562646736896-Q2rd?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGIEABIBUBBKTdImXKLLJP2oS968aVMHY40"
+      },
+      {
+        "author": "Navin Chaddha",
+        "engagement": 551,
+        "primary_category": "Human based security",
+        "post_text": "",
+        "post_url": "https://www.linkedin.com/posts/navinchaddha_activity-7341091079347191809-3AHV?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGIEABIBUBBKTdImXKLLJP2oS968aVMHY40"
+      }
+    ]
+  }
+}
