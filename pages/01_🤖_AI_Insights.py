@@ -213,6 +213,7 @@ else:
                     insights = cached_insights["insights"]
                 else:
                     # Generate new insights
+                    insights = None
                     try:
                         placeholder = st.empty()
                         with placeholder.container():
@@ -236,21 +237,26 @@ else:
                             st.success("✅ Insights generated successfully!")
                         else:
                             render_error_state("Failed to generate insights")
+                            continue
                     except Exception as e:
                         st.error(f"Error: {str(e)}")
-                if show_comparison:
-                    render_comparison_view(
-                        summary=insights["summary"],
-                        posts_analyzed=insights["posts_analyzed"],
-                        category=category,
-                    )
-                else:
-                    render_insights_card(
-                        summary=insights["summary"],
-                        posts_analyzed=insights["posts_analyzed"],
-                        category=category,
-                        show_evidence=show_evidence,
-                    )
+                        continue
+                
+                # Only render if insights were successfully generated/loaded
+                if insights:
+                    if show_comparison:
+                        render_comparison_view(
+                            summary=insights["summary"],
+                            posts_analyzed=insights["posts_analyzed"],
+                            category=category,
+                        )
+                    else:
+                        render_insights_card(
+                            summary=insights["summary"],
+                            posts_analyzed=insights["posts_analyzed"],
+                            category=category,
+                            show_evidence=show_evidence,
+                        )
 
     # Footer info
     st.divider()
